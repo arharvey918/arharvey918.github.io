@@ -170,12 +170,12 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 4em;
+    font-size: 3.75em;
     letter-spacing: 6pt;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 @media(min-width:768px) {
