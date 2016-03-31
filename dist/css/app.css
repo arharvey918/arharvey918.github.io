@@ -109,7 +109,7 @@ a:focus {
 .navbar-custom .nav li a:hover {
     outline: 0;
     color: rgba(255,255,255,.8);
-    background-color: transparent;
+    background-color: rgba(255,255,255,0.25);
 }
 
 .navbar-custom .nav li a:focus,
@@ -155,13 +155,20 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../images/boone.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
     height: 100%;
+}
+
+.intro-index {
+    background: url(../images/boone.jpg) no-repeat bottom center scroll;
+}
+
+.intro-professional {
+    background: url(../images/keyboard.jpg) no-repeat bottom center scroll;
 }
 
 .intro .intro-body {
@@ -298,4 +305,34 @@ a:focus {
 footer {
     padding: 10px;
     background-color: rgba(255,255,255,.25);
+}
+
+i.linkedin {
+    font-size: 1.25em;
+}
+
+.cert-badge {
+    margin-bottom: 20px;
+}
+
+.badge-image {
+    height: 8em;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.cert-badge > span {
+    display: block;
+    vertical-align: middle;
+}
+
+.cert-badge > span > .badge-header {
+    font-size: 1.5em;
+    display: block;
+}
+
+.cert-badge > span > .badge-caption {
+    font-size: 1em;
+    display: block;
 }
